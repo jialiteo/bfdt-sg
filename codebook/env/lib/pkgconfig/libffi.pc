@@ -1,0 +1,11 @@
+prefix=/Users/jialiteo/Library/CloudStorage/OneDrive-NanyangTechnologicalUniversity/Desktop/bfdt-sg/codebook/env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/jialiteo/Library/CloudStorage/OneDrive-NanyangTechnologicalUniversity/Desktop/bfdt-sg/codebook/env/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

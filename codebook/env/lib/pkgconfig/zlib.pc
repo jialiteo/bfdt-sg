@@ -1,0 +1,13 @@
+prefix=/Users/jialiteo/Library/CloudStorage/OneDrive-NanyangTechnologicalUniversity/Desktop/bfdt-sg/codebook/env
+exec_prefix=/Users/jialiteo/Library/CloudStorage/OneDrive-NanyangTechnologicalUniversity/Desktop/bfdt-sg/codebook/env
+libdir=/Users/jialiteo/Library/CloudStorage/OneDrive-NanyangTechnologicalUniversity/Desktop/bfdt-sg/codebook/env/lib
+sharedlibdir=/Users/jialiteo/Library/CloudStorage/OneDrive-NanyangTechnologicalUniversity/Desktop/bfdt-sg/codebook/env/lib
+includedir=/Users/jialiteo/Library/CloudStorage/OneDrive-NanyangTechnologicalUniversity/Desktop/bfdt-sg/codebook/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
